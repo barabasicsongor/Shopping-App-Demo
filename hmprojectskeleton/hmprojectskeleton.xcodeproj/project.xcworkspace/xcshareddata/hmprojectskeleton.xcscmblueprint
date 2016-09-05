@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3BCB8A5B03969EF726BD440A7C2BF6A8878512FB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "3BCB8A5B03969EF726BD440A7C2BF6A8878512FB" : 0,
+    "6A2D967937C878655EA56FADF151A387EBFA67F2" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6B93AD18-4BB5-4494-BFF2-94061A991456",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "3BCB8A5B03969EF726BD440A7C2BF6A8878512FB" : "first-app\/",
+    "6A2D967937C878655EA56FADF151A387EBFA67F2" : "HMProjectSkeleton"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "hmprojectskeleton",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "hmprojectskeleton\/hmprojectskeleton.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/bitbucket.org\/CsongorBarabasi\/first-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3BCB8A5B03969EF726BD440A7C2BF6A8878512FB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "ssh:\/\/bitbucket.org\/halcyonmobile\/hmprojectskeleton.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6A2D967937C878655EA56FADF151A387EBFA67F2"
+    }
+  ]
+}

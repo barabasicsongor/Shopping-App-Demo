@@ -1,0 +1,20 @@
+source 'git@bitbucket.org:halcyonmobile/hmcocoapodsspecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+xcodeproj 'hmprojectskeleton.xcodeproj'
+platform :ios, '7.0'
+
+inhibit_all_warnings! # this will disable all the warnings for all pods
+
+target “hmprojectskeleton” do
+pod 'HLMFoundation/Networking'
+pod 'HLMFoundation/UI'
+pod 'HLMFoundation/Logger'
+pod 'PINRemoteImage'
+pod 'Flurry-iOS-SDK/FlurrySDK'
+pod 'Fabric'
+pod 'Crashlytics'
+pod 'RESideMenu'
+pod 'FMDB'
+pod 'AFNetworking'
+end

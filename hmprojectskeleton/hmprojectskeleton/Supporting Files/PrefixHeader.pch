@@ -1,0 +1,23 @@
+//
+//  PrefixHeader.pch
+//  hmprojectskeleton
+//
+//  Created by Tamas Levente on 5/29/15.
+//  Copyright (c) 2015 halcyonmobile. All rights reserved.
+//
+
+#ifndef hmprojectskeleton_PrefixHeader_pch
+#define hmprojectskeleton_PrefixHeader_pch
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <HLMFoundation/HLMFoundation.h>
+#import "Constants.h"
+#import "HMPColor.h"
+#import "HMPFont.h"
+
+//#import "FlurryManager.h"
+#endif
+
+#endif

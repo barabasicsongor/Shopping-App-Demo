@@ -1,0 +1,69 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Crashlytics (3.7.3):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.8)
+  - FLAnimatedImage (1.0.12)
+  - Flurry-iOS-SDK/FlurrySDK (7.6.6)
+  - FMDB (2.6.2):
+    - FMDB/standard (= 2.6.2)
+  - FMDB/standard (2.6.2)
+  - HLMFoundation/Core (1.6.0)
+  - HLMFoundation/Logger (1.6.0):
+    - HLMFoundation/Core
+  - HLMFoundation/Networking (1.6.0):
+    - AFNetworking
+    - HLMFoundation/Core
+  - HLMFoundation/UI (1.6.0):
+    - HLMFoundation/Core
+  - PINCache (2.3)
+  - PINRemoteImage (2.1.4):
+    - PINRemoteImage/FLAnimatedImage (= 2.1.4)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (2.1.4):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - RESideMenu (4.0.7)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Crashlytics
+  - Fabric
+  - Flurry-iOS-SDK/FlurrySDK
+  - FMDB
+  - HLMFoundation/Logger
+  - HLMFoundation/Networking
+  - HLMFoundation/UI
+  - PINRemoteImage
+  - RESideMenu
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Crashlytics: 76f6beaff70acf226139582c09c78461597c2b98
+  Fabric: 5755268d0171435ab167e3d0878a28a777deaf10
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Flurry-iOS-SDK: 97bbeec09cca666c2f1772f6e161c4f8ccff611e
+  FMDB: 854a0341b4726e53276f2a8996f06f1b80f9259a
+  HLMFoundation: e7612b49cfa26d2ad5fe3d5c57b829a4c3b2e972
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
+  RESideMenu: f24c508404b49c667344c54aba7e590883533958
+
+PODFILE CHECKSUM: 2c2e89fba5cb74291d9629332bc94907d19496b5
+
+COCOAPODS: 1.0.1
