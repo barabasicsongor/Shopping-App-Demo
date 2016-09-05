@@ -17,9 +17,13 @@ static NSString * const kUserDefaultsKeyShouldClearKeychain                     
 #pragma mark - Lifecycle
 
 + (instancetype)sharedInstance {
-	SHARED_INSTANCE_USING_BLOCK(^{
-        return [[self alloc] init];
+    static UserDefaultsManager *sharedInstance = nil;
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sharedInstance = [[UserDefaultsManager alloc] init];
+        // Do any other initialisation stuff here
     });
+    return sharedInstance;
 }
 
 - (instancetype)init {

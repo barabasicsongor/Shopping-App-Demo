@@ -37,7 +37,7 @@ static NSString * const kTableViewCellIdentifier = @"cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = kColorBackgroundMain;
+    self.view.backgroundColor = [UIColor whiteColor];
     
     [self loadData];
     [self tableViewSetup];

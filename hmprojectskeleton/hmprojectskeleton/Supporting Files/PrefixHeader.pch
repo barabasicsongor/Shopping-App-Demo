@@ -12,9 +12,7 @@
 #ifdef __OBJC__
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
-#import <HLMFoundation/HLMFoundation.h>
 #import "Constants.h"
-#import "HMPColor.h"
 #import "HMPFont.h"
 
 //#import "FlurryManager.h"

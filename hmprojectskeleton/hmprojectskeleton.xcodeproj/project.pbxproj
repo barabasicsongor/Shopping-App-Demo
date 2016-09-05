@@ -8,18 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		5623D1B61C4037420002447C /* HMPAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623D1A61C4037420002447C /* HMPAppearance.m */; };
-		5623D1B71C4037420002447C /* HMPColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623D1A81C4037420002447C /* HMPColor.m */; };
 		5623D1B81C4037420002447C /* HMPFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623D1AA1C4037420002447C /* HMPFont.m */; };
 		5623D1B91C4037420002447C /* .keep in Resources */ = {isa = PBXBuildFile; fileRef = 5623D1AC1C4037420002447C /* .keep */; };
 		5623D1BA1C4037420002447C /* .keep in Resources */ = {isa = PBXBuildFile; fileRef = 5623D1AE1C4037420002447C /* .keep */; };
-		568FB3101B208DBB0045CF0F /* KeychainManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 568FB2E51B208DBB0045CF0F /* KeychainManager.m */; };
 		568FB3111B208DBB0045CF0F /* UserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 568FB2E81B208DBB0045CF0F /* UserDefaultsManager.m */; };
 		568FB3131B208DBB0045CF0F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 568FB2F01B208DBB0045CF0F /* AppDelegate.m */; };
 		568FB31E1B208E990045CF0F /* SFHFKeychainUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 568FB31D1B208E990045CF0F /* SFHFKeychainUtils.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		56B12CA51B18883C002019B6 /* hmprojectskeletonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B12CA41B18883C002019B6 /* hmprojectskeletonTests.m */; };
 		56B12CEC1B188887002019B6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B12CDE1B188887002019B6 /* Images.xcassets */; };
 		56B12CEE1B188887002019B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B12CE11B188887002019B6 /* main.m */; };
-		56CB19981BEA59AD0094F507 /* AnalyticsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 56CB19971BEA59AD0094F507 /* AnalyticsManager.m */; };
 		570714351D5DBEE4004513C7 /* ProductListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 570714341D5DBEE4004513C7 /* ProductListViewController.m */; };
 		570714391D5DF347004513C7 /* PriceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 570714381D5DF347004513C7 /* PriceView.m */; };
 		5707143C1D5DF55B004513C7 /* QuantityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5707143B1D5DF55B004513C7 /* QuantityButtonView.m */; };
@@ -74,8 +71,6 @@
 		496C6EBBA7EADC2C17B73FC0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		5623D1A51C4037420002447C /* HMPAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPAppearance.h; sourceTree = "<group>"; };
 		5623D1A61C4037420002447C /* HMPAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPAppearance.m; sourceTree = "<group>"; };
-		5623D1A71C4037420002447C /* HMPColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPColor.h; sourceTree = "<group>"; };
-		5623D1A81C4037420002447C /* HMPColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPColor.m; sourceTree = "<group>"; };
 		5623D1A91C4037420002447C /* HMPFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPFont.h; sourceTree = "<group>"; };
 		5623D1AA1C4037420002447C /* HMPFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPFont.m; sourceTree = "<group>"; };
 		5623D1AC1C4037420002447C /* .keep */ = {isa = PBXFileReference; lastKnownFileType = file; path = .keep; sourceTree = "<group>"; };
@@ -83,8 +78,6 @@
 		567E39021B1DA84500613709 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = Pods/Fabric/Crashlytics.framework; sourceTree = "<group>"; };
 		567E39041B1DA84E00613709 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Fabric.framework; path = Pods/Fabric/Fabric.framework; sourceTree = "<group>"; };
 		568FB2CA1B208DBB0045CF0F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		568FB2E41B208DBB0045CF0F /* KeychainManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeychainManager.h; sourceTree = "<group>"; };
-		568FB2E51B208DBB0045CF0F /* KeychainManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeychainManager.m; sourceTree = "<group>"; };
 		568FB2E71B208DBB0045CF0F /* UserDefaultsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefaultsManager.h; sourceTree = "<group>"; };
 		568FB2E81B208DBB0045CF0F /* UserDefaultsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefaultsManager.m; sourceTree = "<group>"; };
 		568FB2EF1B208DBB0045CF0F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -99,8 +92,6 @@
 		56B12CE01B188887002019B6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		56B12CE11B188887002019B6 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		56B12CE21B188887002019B6 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		56CB19961BEA59AD0094F507 /* AnalyticsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsManager.h; sourceTree = "<group>"; };
-		56CB19971BEA59AD0094F507 /* AnalyticsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsManager.m; sourceTree = "<group>"; };
 		570714331D5DBEE4004513C7 /* ProductListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductListViewController.h; path = ProductList/ProductListViewController.h; sourceTree = "<group>"; };
 		570714341D5DBEE4004513C7 /* ProductListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductListViewController.m; path = ProductList/ProductListViewController.m; sourceTree = "<group>"; };
 		570714371D5DF347004513C7 /* PriceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PriceView.h; path = Views/PriceView.h; sourceTree = "<group>"; };
@@ -229,8 +220,6 @@
 			children = (
 				5623D1A51C4037420002447C /* HMPAppearance.h */,
 				5623D1A61C4037420002447C /* HMPAppearance.m */,
-				5623D1A71C4037420002447C /* HMPColor.h */,
-				5623D1A81C4037420002447C /* HMPColor.m */,
 				5623D1A91C4037420002447C /* HMPFont.h */,
 				5623D1AA1C4037420002447C /* HMPFont.m */,
 			);
@@ -324,19 +313,9 @@
 			isa = PBXGroup;
 			children = (
 				571AD48F1D5B352E00718BF1 /* Database */,
-				568FB2E31B208DBB0045CF0F /* Keychain */,
 				568FB2E61B208DBB0045CF0F /* UserDefaults */,
 			);
 			path = Persistence;
-			sourceTree = "<group>";
-		};
-		568FB2E31B208DBB0045CF0F /* Keychain */ = {
-			isa = PBXGroup;
-			children = (
-				568FB2E41B208DBB0045CF0F /* KeychainManager.h */,
-				568FB2E51B208DBB0045CF0F /* KeychainManager.m */,
-			);
-			path = Keychain;
 			sourceTree = "<group>";
 		};
 		568FB2E61B208DBB0045CF0F /* UserDefaults */ = {
@@ -403,7 +382,6 @@
 		568FB3021B208DBB0045CF0F /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				56CB19951BEA59AD0094F507 /* Analytics */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -506,15 +484,6 @@
 				56B12CE21B188887002019B6 /* PrefixHeader.pch */,
 			);
 			path = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		56CB19951BEA59AD0094F507 /* Analytics */ = {
-			isa = PBXGroup;
-			children = (
-				56CB19961BEA59AD0094F507 /* AnalyticsManager.h */,
-				56CB19971BEA59AD0094F507 /* AnalyticsManager.m */,
-			);
-			path = Analytics;
 			sourceTree = "<group>";
 		};
 		5707142F1D5DBDF7004513C7 /* ProductList */ = {
@@ -940,7 +909,6 @@
 				56B12CEE1B188887002019B6 /* main.m in Sources */,
 				571AD4A71D5B4E6800718BF1 /* ShopDetailViewController.m in Sources */,
 				572667211D62F3F700DFA34A /* NSDictionaryConstants.m in Sources */,
-				5623D1B71C4037420002447C /* HMPColor.m in Sources */,
 				57C116311D6C21FF00824339 /* ArticleCollectionViewCell.m in Sources */,
 				571AD48B1D5B351600718BF1 /* Product.m in Sources */,
 				574E38E41D6B35A600942A53 /* LoadArticlesOperation.m in Sources */,
@@ -960,7 +928,6 @@
 				57E241831D5BD64B00275042 /* ProductTableViewCell.m in Sources */,
 				571AD4A31D5B3E4500718BF1 /* ShopTableViewCell.m in Sources */,
 				574E38E71D6B36D700942A53 /* ArticleParser.m in Sources */,
-				568FB3101B208DBB0045CF0F /* KeychainManager.m in Sources */,
 				571AD4AA1D5B4E7D00718BF1 /* LocationService.m in Sources */,
 				571AD4811D5B330B00718BF1 /* RootViewController.m in Sources */,
 				5707DBAC1D6AE91700503300 /* ArticlesTableViewController.m in Sources */,
@@ -969,7 +936,6 @@
 				568FB3131B208DBB0045CF0F /* AppDelegate.m in Sources */,
 				568FB31E1B208E990045CF0F /* SFHFKeychainUtils.m in Sources */,
 				571AD4981D5B3AC300718BF1 /* ShopService.m in Sources */,
-				56CB19981BEA59AD0094F507 /* AnalyticsManager.m in Sources */,
 				5726671A1D62E91B00DFA34A /* NSUserDefaultsConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
