@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5623D1B61C4037420002447C /* HMPAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623D1A61C4037420002447C /* HMPAppearance.m */; };
-		5623D1B81C4037420002447C /* HMPFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 5623D1AA1C4037420002447C /* HMPFont.m */; };
 		5623D1B91C4037420002447C /* .keep in Resources */ = {isa = PBXBuildFile; fileRef = 5623D1AC1C4037420002447C /* .keep */; };
 		5623D1BA1C4037420002447C /* .keep in Resources */ = {isa = PBXBuildFile; fileRef = 5623D1AE1C4037420002447C /* .keep */; };
 		568FB3111B208DBB0045CF0F /* UserDefaultsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 568FB2E81B208DBB0045CF0F /* UserDefaultsManager.m */; };
@@ -69,10 +67,6 @@
 /* Begin PBXFileReference section */
 		34EFC55C27A6E42667F3A697 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		496C6EBBA7EADC2C17B73FC0 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		5623D1A51C4037420002447C /* HMPAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPAppearance.h; sourceTree = "<group>"; };
-		5623D1A61C4037420002447C /* HMPAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPAppearance.m; sourceTree = "<group>"; };
-		5623D1A91C4037420002447C /* HMPFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMPFont.h; sourceTree = "<group>"; };
-		5623D1AA1C4037420002447C /* HMPFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMPFont.m; sourceTree = "<group>"; };
 		5623D1AC1C4037420002447C /* .keep */ = {isa = PBXFileReference; lastKnownFileType = file; path = .keep; sourceTree = "<group>"; };
 		5623D1AE1C4037420002447C /* .keep */ = {isa = PBXFileReference; lastKnownFileType = file; path = .keep; sourceTree = "<group>"; };
 		567E39021B1DA84500613709 /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Crashlytics.framework; path = Pods/Fabric/Crashlytics.framework; sourceTree = "<group>"; };
@@ -207,23 +201,11 @@
 			isa = PBXGroup;
 			children = (
 				571E787F1D66F5C00018A688 /* Wireframe */,
-				5623D1A41C4037420002447C /* Appearance */,
 				5623D1AB1C4037420002447C /* Components */,
 				5623D1AD1C4037420002447C /* DTO Presentation */,
 				5623D1AF1C4037420002447C /* View Controllers */,
 			);
 			path = "User Interface";
-			sourceTree = "<group>";
-		};
-		5623D1A41C4037420002447C /* Appearance */ = {
-			isa = PBXGroup;
-			children = (
-				5623D1A51C4037420002447C /* HMPAppearance.h */,
-				5623D1A61C4037420002447C /* HMPAppearance.m */,
-				5623D1A91C4037420002447C /* HMPFont.h */,
-				5623D1AA1C4037420002447C /* HMPFont.m */,
-			);
-			path = Appearance;
 			sourceTree = "<group>";
 		};
 		5623D1AB1C4037420002447C /* Components */ = {
@@ -913,12 +895,10 @@
 				571AD48B1D5B351600718BF1 /* Product.m in Sources */,
 				574E38E41D6B35A600942A53 /* LoadArticlesOperation.m in Sources */,
 				5726671E1D62F0AA00DFA34A /* DatabaseConstants.m in Sources */,
-				5623D1B81C4037420002447C /* HMPFont.m in Sources */,
 				568FB3111B208DBB0045CF0F /* UserDefaultsManager.m in Sources */,
 				572DDA1E1D5C971500969F3B /* ProductDetailViewController.m in Sources */,
 				571E78891D6700C50018A688 /* BaseViewController.m in Sources */,
 				571AD48E1D5B352100718BF1 /* Category.m in Sources */,
-				5623D1B61C4037420002447C /* HMPAppearance.m in Sources */,
 				571AD4881D5B350E00718BF1 /* Shop.m in Sources */,
 				574E38ED1D6B38DE00942A53 /* ArticleService.m in Sources */,
 				5707143C1D5DF55B004513C7 /* QuantityButtonView.m in Sources */,

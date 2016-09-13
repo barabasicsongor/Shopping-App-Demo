@@ -12,7 +12,6 @@
 #import "ShopService.h"
 #import "LocationService.h"
 #import "Shop.h"
-#import "HMPAppearance.h"
 #import "RESideMenu.h"
 
 static NSString * const kTableViewCellIdentifier = @"cell";

@@ -13,7 +13,6 @@
 #import "CategoryProductService.h"
 #import "Shop.h"
 #import "ShopCategories.h"
-#import "HMPAppearance.h"
 
 static NSString * const kTableViewCellIdentifier = @"cell";
 
@@ -24,7 +23,6 @@ static NSString * const kTableViewCellIdentifier = @"cell";
 @property (nonatomic) Shop *shop;
 @property (nonatomic) NSArray<ShopCategories *> *shopCategories;
 @property (nonatomic) MKMapView *mapView;
-@property (nonatomic) UITableView *tableView;
 @property (nonatomic) CategoryProductService *cpService;
 
 @end

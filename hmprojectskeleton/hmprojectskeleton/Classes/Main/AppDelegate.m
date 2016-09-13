@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "HMPAppearance.h"
 #import "RootViewController.h"
 #import "SideMenuViewController.h"
 #import "RESideMenu.h"
@@ -15,7 +14,6 @@
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [HMPAppearance initAppearance];
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
